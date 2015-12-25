@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 基础组件 -->
+    <dimen name="sidemenu_touchwidth">200dp</dimen>
+    <!-- 字体 -->
+    <dimen name="font_dimen_title">18sp</dimen>
+    <dimen name="font_dimen_big">16sp</dimen>
+    <dimen name="font_dimen_primary">14sp</dimen>
+    <dimen name="font_dimen_small">12sp</dimen>
+    <dimen name="font_dimen_hint">10sp</dimen>
+
+    <!-- 最边上的控件和边框的边距以及控间间的间距 -->
+    <dimen name="com_margin">10dp</dimen>
+    <dimen name="com_padding">4dp</dimen>
+    <!-- 二级菜单的高度 -->
+    <dimen name="menu_height_lv2">30.7dp</dimen>
+
+    <!-- 标题栏高度 -->
+    <dimen name="titlebar_height">42.7dp</dimen>
+    <dimen name="titlebar_button_height">21.3dp</dimen>
+    <dimen name="button_left_width">57.3dp</dimen>
+    <dimen name="padding_right_button_left">25dp</dimen>
+    <!-- 底部按钮高度 -->
+    <dimen name="bottom_button_height">42.7dp</dimen>
+    <dimen name="item_ownerinfo_usercover_height">18.7dp</dimen>
+    <dimen name="item_ownerinfo_layout_height">25.3dp</dimen>
+    <!-- 用户信息部分高度 -->
+    <dimen name="userinfo_height">56.8dp</dimen>
+    <!-- 用户信息顶部装饰件高度 -->
+    <dimen name="userinfo_topframe_height">18.2dp</dimen>
+    <!-- 摧荐页用户信息左右边距 -->
+    <dimen name="userinfo_recommend_margin">14.7dp</dimen>
+    <!-- 摧荐页头像高度 -->
+    <dimen name="usercover_recommend_height">40dp</dimen>
+    <!-- 背包高度 -->
+    <dimen name="backage_recommend_height">26.7dp</dimen>
+    <!-- 摧荐页item相关高度 -->
+    <dimen name="item_recommend_cove_height">128dp</dimen>
+    <dimen name="item_recommend_height">161.3dp</dimen>
+    <dimen name="group_divider_height">20dp</dimen>
+    <dimen name="item_divider_height">8dp</dimen>
+
+    <!-- 背包 -->
+    <dimen name="item_user_width">101.3dp</dimen>
+    <dimen name="item_user_height">120dp</dimen>
+    <dimen name="element_usercover_height">64dp</dimen>
+
+    <!-- 社区 -->
+    <dimen name="forumlist_height">62.7dp</dimen>
+    <dimen name="forumview_height">42.7dp</dimen>
+    <dimen name="forumview_cover_radius">21.4dp</dimen>
+    <dimen name="item_normalpost_height">70dp</dimen>
+
+    <!-- 个人中心 -->
+    <dimen name="userinfo_usercenter_background_height">226dp</dimen>
+    <dimen name="userinfo_usercenter_layout_margin">36dp</dimen>
+    <dimen name="usercover_usercenter_height">70dp</dimen>
+    <dimen name="button_usercenter_height">40dp</dimen>
+    <dimen name="button_usercenter_weight">80dp</dimen>
+    <dimen name="button_usercenter_radius">20dp</dimen>
+    <dimen name="item_usercenter_height">88dp</dimen>
+    <dimen name="leve_usercenter_height">25dp</dimen>
+
+    <!-- 帖子详情 -->
+    <dimen name="button_post_margin">23.3dp</dimen>
+
+    <!-- 修改个人资料 -->
+    <dimen name="item_height">78dp</dimen>
+    <!-- 引导页 -->
+    <dimen name="margin_bottom_button">70dp</dimen>
+
+</resources>

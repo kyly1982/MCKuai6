@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 基础组件 -->
+    <dimen name="sidemenu_touchwidth">200dp</dimen>
+    <!-- 字体 -->
+    <dimen name="font_dimen_title">18sp</dimen>
+    <dimen name="font_dimen_big">16sp</dimen>
+    <dimen name="font_dimen_primary">14sp</dimen>
+    <dimen name="font_dimen_small">12sp</dimen>
+    <dimen name="font_dimen_hint">10sp</dimen>
+
+    <!-- 最边上的控件和边框的边距以及控间间的间距 -->
+    <dimen name="com_margin">18dp</dimen>
+
+    <!-- 用户信息部分高度 -->
+    <dimen name="userinfo_height">114dp</dimen>
+    <!-- 用户信息顶部装饰件高度 -->
+    <dimen name="userinfo_topframe_height">36dp</dimen>
+    <!-- 摧荐页用户信息左右边距 -->
+    <dimen name="userinfo_recommend_margin">22dp</dimen>
+    <!-- 摧荐页头像高度 -->
+    <dimen name="usercover_recommend_height">60dp</dimen>
+    <!-- 背包高度 -->
+    <dimen name="backage_recommend_height">40dp</dimen>
+    <!-- 摧荐页内项目的高度 -->
+    <dimen name="item_recommend_height">80dp</dimen>
+
+    <!-- 标题栏高度 -->
+    <dimen name="titlebar_height">64dp</dimen>
+    <dimen name="titlebar_button_height">32dp</dimen>
+    <!-- 二级菜单的高度 -->
+    <dimen name="menu_height_lv2">46dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>

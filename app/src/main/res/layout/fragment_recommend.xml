@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CircleProgress="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_white"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv_userinfo_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/userinfo_topframe_height"
+        android:background="@color/background_green"
+        android:scaleType="fitXY"
+        android:src="@mipmap/background_userinfo_top" />
+
+    <RelativeLayout
+        android:id="@+id/rl_UserInfo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/userinfo_height"
+        android:background="@color/background_green" >
+
+        <com.mckuai.imc.widget.CircleImageView
+            android:id="@+id/prg_user_Head"
+            android:layout_width="@dimen/usercover_recommend_height"
+            android:layout_height="@dimen/usercover_recommend_height"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/com_margin"
+            CircleProgress:border_color="@color/background_white"
+            CircleProgress:border_width="1dp"
+            CircleProgress:progress_color="@color/frame_green"
+            CircleProgress:start_point="-90"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:src="@mipmap/background_user_cover_default" />
+
+        <Button
+            android:id="@+id/btn_backPackage"
+            android:layout_width="@dimen/backage_recommend_height"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/com_margin"
+            android:background="@null"
+            android:drawableTop="@drawable/btn_package_selector"
+            android:text="@string/pack"
+            android:textColor="@color/font_white"
+            android:textSize="@dimen/font_dimen_small" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignBottom="@id/prg_user_Head"
+            android:layout_alignTop="@id/prg_user_Head"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/btn_backPackage"
+            android:layout_toRightOf="@id/prg_user_Head"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/com_margin" >
+
+            <TextView
+                android:id="@+id/tv_UserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLength="10"
+                android:paddingLeft="@dimen/com_padding"
+                android:paddingRight="@dimen/com_padding"
+                android:singleLine="true"
+                android:text="点击头像登录"
+                android:textColor="@color/font_white"
+                android:textSize="@dimen/font_dimen_primary" />
+
+            <TextView
+                android:id="@+id/tv_UserLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_alignBottom="@id/tv_UserName"
+                android:layout_alignTop="@id/tv_UserName"
+                android:layout_marginLeft="@dimen/com_margin"
+                android:layout_toRightOf="@id/tv_UserName"
+                android:background="@mipmap/background_user_level"
+                android:gravity="center"
+                android:paddingLeft="@dimen/com_margin"
+                android:paddingRight="@dimen/com_margin"
+                android:singleLine="true"
+                android:textColor="@color/font_white"
+                android:textSize="@dimen/font_dimen_small"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/iv_location_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:src="@mipmap/icon_location"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_Location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/tv_UserName"
+                android:layout_alignParentBottom="true"
+                android:clickable="true"
+                android:drawableLeft="@mipmap/icon_location"
+                android:gravity="top"
+                android:singleLine="true"
+                android:textColor="@color/font_location_recommend"
+                android:textSize="@dimen/font_dimen_small"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rg_Message_Type" >
+
+            <ImageView
+                android:id="@+id/v_empty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/icon_empty" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/v_empty"
+                android:gravity="center"
+                android:text="没有内容！" />
+        </RelativeLayout>
+
+        <com.mckuai.imc.widget.XListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/background_litegray"
+            android:dividerHeight="0dp" >
+        </com.mckuai.imc.widget.XListView>
+    </RelativeLayout>
+
+</LinearLayout>

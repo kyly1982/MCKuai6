@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 通用 -->
+    <!-- 麦块我的世界盒子 -->
+    <!-- 麦块 -->
+    <!-- 百度 -->
+    <!-- 官网 -->
+    <string name="app_name">麦块</string>
+    <string name="channel">百度</string>
+    <string name="loadfaile_formaterror">获取的数据中没有dataObject字段，请重试！</string>
+    <string name="faile">出错啦</string>
+    <string name="loadfaile">获取数据失败！</string>
+    <string name="loadfaile_hint">获取数据失败，请稍后再试！</string>
+    <string name="loadfaile_context">请求数据时失败，原因：</string>
+    <!-- title -->
+    <string name="title_recommend">麦块</string>
+    <string name="title_forum">社区</string>
+    <string name="title_live">直播</string>
+    <!-- 推荐 -->
+    <string name="pack">背包</string>
+    <string name="playGame">开始玩我的世界</string>
+    <!-- 个人中心 -->
+    <string name="message">消息</string>
+    <string name="dynamic">动态</string>
+    <string name="post">作品</string>
+    <string name="allMessage">全部</string>
+    <string name="atMessage">\@你</string>
+    <string name="systemMessage">系统</string>
+    <string name="replyYou">回复你的帖子</string>
+    <string name="atYou">\@了你</string>
+    <string name="replyPost">回复了</string>
+    <string name="createPost">创造了</string>
+    <string name="userId">USER_ID</string>
+    <string name="user">USER_OBJECT</string>
+    <string name="addtoPackage">加入背包</string>
+    <string name="makeChat">和TA聊天</string>
+    <string name="preservation">保存</string>
+
+    <!-- 社区首页 -->
+    <string name="lastPost">最新</string>
+    <string name="essencePost">精华</string>
+    <string name="topPost">推荐</string>
+
+    <!-- 直播 -->
+    <string name="live_now">正在直播</string>
+    <string name="live_hot">热门推荐</string>
+    <string name="live_all">全部</string>
+    <string name="live_playing">正在直播</string>
+    <string name="live_finish">完本</string>
+    <string name="type_survival">生存</string>
+
+    <!-- 帖子详情 -->
+    <string name="btn_showowneronly">只看楼主</string>
+    <string name="tag_post">TAG_POST</string>
+    <string name="post_title">帖子详情</string>
+    <string name="post_replypost">跟楼</string>
+    <string name="post_replyfloor">回复楼层</string>
+    <string name="post_unlogin">未登录</string>
+    <string name="needMore">还需输入</string>
+    <string name="tooMuch">已经超出</string>
+    <string name="spare">还可输入</string>
+    <string name="unit">个字</string>
+    <!-- 缓存和配置存储 -->
+    <string name="jsoncache_dir">cache</string>
+    <string name="imagecache_dir">image</string>
+    <string name="jsoncache_file">jsonCache.dat</string>
+    <string name="title_activity_forum">ForumActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="preferences_file">config</string>
+    <!-- key -->
+    <item name="key_USERID" type="id"></item>
+    <item name="key_FORUMID" type="id"></item>
+    <!-- 定位 -->
+    <string name="addrs">定位</string>
+    <string name="gps_addr">GPS定位城市</string>
+    <string name="addr_city">选择城市</string>
+    <string name="addr_city_start">网络定位</string>
+    <string name="addr_hint">请选择</string>
+    <!-- 背包和搜索 -->
+    <string name="backpack">背包 </string>
+    <string name="postlist">帖子</string>
+    <string name="friendlist">麦友</string>
+    <!-- 麦友 -->
+    <string name="gohome">去TA的家</string>
+    <string name="chat">和TA聊天</string>
+    <!-- 登录相关 -->
+    <string name="enable_autologin">AutoLogin</string>
+    <string name="btn_login">使用QQ账号登录</string>
+    <string name="tv_anonymous">>>随便看看</string>
+    <string name="qqToken">QQ_TOKEN</string>
+    <string name="qq_OpenId">QQ_OPEN_ID</string>
+    <string name="mc_id">MC_ID</string>
+    <string name="tokenTime">QQ_TOKEN_BIRTHDAY</string>
+    <string name="tokenExpires">QQ_TOKEN_EXPIRES</string>
+    <string name="rcToken">RC_TOKEN</string>
+    <string name="mc_userFace">MC_HEADIMAGE</string>
+    <string name="mc_nick">MC_NICK</string>
+    <string name="mc_gender">MC_GENDER</string>
+    <string name="mc_userName">MC_USERNAME</string>
+    <string name="mc_userPwd">MC_USERPWD</string>
+    <string name="rc_userName">RC_USERNAME</string>
+    <string name="rc_userPwd">RC_USERPWD</string>
+    <string name="needLoginResult">NEED_RESULT</string>
+    <string name="login_hint">正在登录到服务器，请稍候...</string>
+    <string name="loginFail_hint">登录到麦块服务器时失败，代码：</string>
+    <string name="loginFail">登录失败</string>
+    <string name="loginFailContext_QQ">QQ服务器返回的登录信息为空!</string>
+    <string name="loginFail_QQ">登录到QQ时失败，请重试!</string>
+    <string name="loginFailCode">错误代码：</string>
+    <string name="loginFail_type">返回的数据格式不正确,</string>
+    <string name="loginFail_nouser">登录到QQ上时未能获取取用户信息，请重试!</string>
+
+    <!-- 接口 -->
+    <!-- 接口域名，使用域名+接口的方式来请求数据 -->
+    <string name="interface_domainName">http://api.mckuai.com/</string>
+    <!-- 首页接口，可选参数：id=userid -->
+    <string name="interface_recommend">interface.do?act=indexRec</string>
+    <!-- 收藏的帖子接口，参数：id=userid,page=页数 -->
+    <string name="interface_collect">interface.do?act=collectTalk</string>
+    <!-- 关注的用户列表接口，参数：id=用户id&page=页数 -->
+    <string name="interface_fellow">interface.do?act=attentionUser</string>
+    <!-- 收藏帖子interface.do?act=toCollect&userId=&talkId= // -->
+    <string name="interface_collectpost">interface.do?act=toCollect</string>
+    <!-- 取消收藏帖子interface.do?act=cancleCollect&userId=&talkId= -->
+    <string name="interface_cancle_collectpost">interface.do?act=cancleCollect</string>
+    <!-- 关注用户接口，参数：ownerId=当前用户id&otherId=被关注的用户id -->
+    <string name="interface_fellowuser">interface.do?act=attention</string>
+    <!-- 取消关注用户 -->
+    <string name="interface_cancle_fellowuser">/interface.do?act=cancleAttention</string>
+    <string name="interface_unfellow"></string>
+    <!-- 个人中心接口，参数：id=用户id&page=&type=&messageType=    type{message（消息）,dynamic（动态）,work（作品）}; messageType{ system（系统）,reply（@）} -->
+    <string name="interface_userCenter">interface.do?act=center</string>
+    <!-- 版块帖子列表接口，参数：forumId=&page=&type=,(type{lastChangeTime,isJing,isDing}) -->
+    <string name="interface_postList">interface.do?act=talkList</string>
+    <!-- 版块列表接口 -->
+    <string name="interface_forumList">interface.do?act=forumList</string>
+    <!-- 帖子访问地址，参数：id=talkId -->
+    <string name="interface_showPost">interface.do?act=talkOne</string>
+    <!-- 生存直播，参数：page=&type=生存直播&orderField=new|hot|all -->
+    <string name="interface_live">interface.do?act=live</string>
+    <!-- 更新位置，参数：id=&addr= -->
+    <string name="interface_updateLocation">interface.do?act=updateAddr</string>
+    <!-- 上传图片 回图片路径字符串  http://cdn.mckuai.com/xxx.jpg 需加在content 帖子内容后面 -->
+    <string name="interface_uploadpic">group.do?act=uploadImg</string>
+    <!-- 发帖 &userId=&forumId=&forumName=&talkTypeid=&talkTypeName=&talkTitle=&content=&device=andriod -->
+    <string name="interface_sendpost">interface.do?act=addTalk</string>
+    <!-- 跟帖，跟帖前取参数window.interface.setparameters(),window.interface.getParameters() -->
+    <string name="interface_replypost">interface.do?act=followTalk</string>
+    <!-- 回复楼层 -->
+    <string name="interface_replyfloor">interface.do?act=replyTalk</string>
+    <!-- 搜索 type=&key=  (type talk||people;key  搜索关键字) -->
+    <string name="interface_search">interface.do?act=search</string>
+    <!-- 登录 -->
+    <string name="interface_qqlogin">interface.do?act=login</string>
+    <!-- 检查更新 -->
+    <string name="interface_checkupgread">interface.do?act=androidUpdate</string>
+    <!-- 更新昵称 -->
+    <string name="interface_update_userinfo">interface.do?act=saveUser</string>
+    <!-- 更新头像 -->
+    <string name="interface_update_cover">interface.do?act=headImg</string>
+    <!-- 打赏 -->
+    <string name="interface_reward">interface.do?act=daShang</string>
+    <!-- 是否打赏或收藏 -->
+    <string name="interface_getpostmark">interface.do?act=isCollect</string>
+    <!-- 用户是否被关注 -->
+    <string name="interface_getusermark">interface.do?act=isAttention</string>
+    <!-- quick reply -->
+    <string name="interface_quickreply">interface.do?act=addReplyByCenter</string>
+
+    <!-- 登录界面 -->
+    <string name="interface_login">user.do?act=login</string>
+    <string name="onloading_hint">正在加载...</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="title_activity_lead">LeadActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <!-- 搜索结果 -->
+    <string name="search_contxt">SEARCH_CONTEXT</string>
+    <!-- 发帖 -->
+    <string name="select_forum">版块</string>
+    <string name="select_post_type">类型</string>
+    <string name="hint_title">标题</string>
+    <string name="hint_content">内容</string>
+    <string name="publishpost">发帖</string>
+    <string name="publish_hint">不要动,我正在消灭苦力怕...</string>
+
+    <!-- 聊天室 -->
+    <string name="chatroom_id">CHAT_ROOM_ID</string>
+
+    <!-- 上拉下拉 -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="refreshloading">正在加载...</string>
+    <string name="title_activity_search_result">SearchResultActivity</string>
+    <string name="title_activity_change_info">ChangeInfoActivity</string>
+    <string name="title_activity_chat_room">ChatRoomActivity</string>
+    <string name="title_activity_modify_name">ModifyName</string>
+
+    <!-- 更新-->
+    <string name="download_failure">下载新版本失败 !</string>
+    <string name="is_latest_version_label">你已经拥有最新版的MC哇！</string>
+    <string name="latest_version_title">发现新版本</string>
+    <string name="update_latest_version_title">发现新版本(%1$s), 升级中&#8230;</string>
+    <string name="later_on_wifi">在wifi网络下自动升级！</string>
+    <string name="later_update_tip">Updating&#8230; (Submited when you\'r NOT on Wifi)</string>
+    <string name="update">更新</string>
+    <string name="ignore">忽略</string>
+
+</resources>

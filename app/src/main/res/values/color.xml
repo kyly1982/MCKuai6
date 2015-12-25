@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 背景色 -->
+    <color name="background_green">#38CA44</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_orange">#F5A925</color>
+    <color name="background_litegray">#C9C9C9</color>
+    <color name="background_blck">#060E12</color>
+    <color name="background_clock">#DE6160</color>
+    <color name="background_essence">#2DCD51</color>
+    <color name="background_reply_live">#56D570</color>
+    <color name="background_top">#FDAD31</color>
+    <color name="background_titlebar">#1AD359</color>
+    <color name="background_forum_selected">#22A53D</color>
+    <color name="background_package_gray">#EFF0F2</color>
+    <!-- 字体颜色 -->
+    <color name="font_primary">#4D4D4D</color>
+    <color name="font_secondary">#B4B4B4</color>
+    <color name="font_radio_hint_normal">#B6A8A5</color>
+    <color name="font_radio_hint_checked">#24922F</color>
+    <color name="font_white">#FFFFFF</color>
+    <color name="font_green">#38CA44</color>
+    <color name="font_red">#FF0000</color>
+    <color name="forum_unselected">#1A923B</color>
+    <color name="font_location_recommend">#0E8436</color>
+
+    <!-- 边框色 -->
+    <color name="frame_darkgray">#EBEBEB</color>
+    <color name="frame_green">#04FF04</color>
+    <!-- 登录 -->
+    <color name="login_pressed">#30BB55</color>
+    <color name="login_normal">#38BE5C</color>
+
+    <!-- 进度提示 -->
+    <color name="color_accent">#7c4dff</color>
+    <color name="color_success">#3CCD88</color>
+    <color name="color_error">#f44336</color>
+
+    <!-- 通知 -->
+    <color name="notification_background">#38CA44</color>
+    <color name="notification_textColor">#FFFFFF</color>
+    <color name="notification_icon_background">#000000</color>
+    <color name="new_message">#FF0000</color>
+
+</resources>

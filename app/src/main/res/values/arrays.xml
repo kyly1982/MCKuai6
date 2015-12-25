@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 主页 -->
+    <string-array name="main_fragment">
+        <item>推荐</item>
+        <item>直播</item>
+        <item>聊天</item>
+        <item>社区</item>
+    </string-array>
+    <string-array name="fragment_bp">
+        <item>帖子</item>
+        <item>麦友</item>
+    </string-array>
+    <string-array name="live_type">
+        <item>全部         </item>
+        <item>生存直播   </item>
+        <item>极限直播   </item>
+        <item>小说直播   </item>
+        <item>地图直播   </item>
+    </string-array>
+    <string-array name="live_type_simple">
+        <item>全部</item>
+        <item>生存</item>
+        <item>极限</item>
+        <item>小说</item>
+        <item>地图</item>
+    </string-array>
+    <string-array name="post_group">
+        <item>lastChangeTime</item>
+        <item>isJing</item>
+        <item>isDing</item>
+    </string-array>
+</resources>

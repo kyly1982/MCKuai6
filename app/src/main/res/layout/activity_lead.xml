@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_white" />
+
+    <TextView
+        android:id="@+id/tv_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="@null"
+        android:clickable="true"
+        android:text="&lt;&lt;&lt; 向左滑动以继续"
+        android:textColor="@color/font_white"
+        android:textSize="@dimen/font_dimen_primary" />
+
+    <Button
+        android:id="@+id/btn_showNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_bottom_button"
+        android:layout_marginLeft="@dimen/userinfo_topframe_height"
+        android:layout_marginRight="@dimen/userinfo_topframe_height"
+        android:background="@drawable/background_start_mc"
+        android:text="立即体验"
+        android:textColor="@color/font_white"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+</RelativeLayout>
